@@ -15,6 +15,24 @@ Visit the [`shopify.dev` documentation](https://shopify.dev/docs/api/shopify-app
 
 ## Quick start
 
+## Avis Prototype Quick Start
+
+This repo currently opens straight into the `Avis Color Swatch` prototype inside the embedded app shell.
+
+### Run on the shared dev store
+
+```shell
+npm install
+npm run setup
+shopify app dev --store=aylin-test-v2.myshopify.com
+```
+
+Notes:
+
+- Shopify CLI will use `shopify.app.order-tracking-v2.toml` for the connected app config.
+- When the app opens in Shopify Admin, `/app` now redirects directly to `/app/avis/dashboard`.
+- If Shopify CLI asks you to log in again on a new machine, complete the browser auth flow and rerun the same `shopify app dev --store=aylin-test-v2.myshopify.com` command.
+
 ### Prerequisites
 
 Before you begin, you'll need the following:
