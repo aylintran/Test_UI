@@ -1,0 +1,9 @@
+Running pre-dev command: "npx prisma generate"Preparing dev preview on aylin-test-v2.myshopify.comProxy server started on port 65019 GraphiQL server started on port 3457✅ Ready, watching for changes in your app │ Access scopes auto-granted: write_products└ Using URL: https://tribune-plumbing-rotation-desirable.trycloudflare.comPrisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "dev.sqlite" at "file:dev.sqlite"
+
+1 migration found in prisma/migrations
+
+
+No pending migrations to apply.
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m65022[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
